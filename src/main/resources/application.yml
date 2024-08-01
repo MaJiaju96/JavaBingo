@@ -9,3 +9,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/bingo?serverTimezone=UTC
     username: root
     password: root
+# mybatis-plus
+mybatis-plus:
+  configuration:
+    # sql日志, 开发调试时开启
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
