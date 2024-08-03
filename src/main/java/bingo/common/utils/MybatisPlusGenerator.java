@@ -13,7 +13,7 @@ public class MybatisPlusGenerator {
     static final String username = "root";  // 数据库用户名
     static final String password = "root";  // 数据库密码
     static final String authorName = "Majiaju"; // 作者名
-    static final String parentPackageNameResource = "bingo/common/user";  // mapper.xml路径
+    static final String parentPackageNameResource = "main/java/bingo/common/user";  // mapper.xml路径
     static final String parentPackageNameJava = "bingo.common.user";  // java 文件父包名
     // 要生成代码对应的数据表名
     static final String tableName = "user";
